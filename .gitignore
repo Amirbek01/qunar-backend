@@ -1,0 +1,18 @@
+# Не загружаем зависимости
+node_modules/
+package-lock.json
+
+# Переменные окружения (очень важно, чтобы API-ключи не попали в репозиторий!)
+.env
+
+# Логи и кеш
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.DS_Store
+
+# Сборочные файлы
+dist/
+build/
+.vscode/
+.idea/
